@@ -18,7 +18,8 @@ SOURCES += \
     ImieNazwisko/bazaimienazwiskomeskie.cpp \
     bazamysql.cpp \
     Login/generujlogin.cpp \
-    Haslo/generujhaslo.cpp
+    Haslo/generujhaslo.cpp \
+    tworzbaze.cpp
 
 HEADERS += \
     generator.h \
@@ -28,4 +29,5 @@ HEADERS += \
     bazamysql.h \
     Login/generujlogin.h \
     modul.h \
-    Haslo/generujhaslo.h
+    Haslo/generujhaslo.h \
+    tworzbaze.h
