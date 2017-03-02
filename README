@@ -1,0 +1,19 @@
+DBGenerator
+Program generuje dane do bazy danych MySQL, wykorzystująca biblioteke QT.
+
+Do pliku nagłówkowego modul.h dodawane są pliki z modułami. kazdy modul jest w osobnym folderze.
+Do klasy Generator zdeklarowanej w pliku naglowkowym generator.h nalezy dodac:
+- połączenie z modułem
+- funkcje zwracającą odpowiednie wygenerowane dane.
+Klasa BazaMySQL łączy się z bazą danych według ustawionych parametrów.
+
+v1.000
+
+zawiera szkielet. DO głównej klasy Generator dodawane są odpowiednie moduły:
+- Imie i Nazwisko (mozliwosc generowania samych imion, jak i imion i nazwisk, z podziałem na żeńskie, męskie i losowe.
+- loginy składające się z połączenia imienia i nazwiska, łącząc je kropka, skłąda się z małych liter
+- hasła, składające się z cyfr, wielkich i małych liter. 
+ 
+Klasa BazaMySQL:
+- zapytania nie zawierające odpowiedzi. (INSERT, UPDATE itd)
+ 
